@@ -91,7 +91,7 @@ optional:
 
 ### Models
 **User** 
-
+<img src="model_user_table.png" width=600><br>
 
 [Add table of models]
 ### Networking
