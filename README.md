@@ -82,7 +82,7 @@ optional:
 
 ## Wireframes
 
-<img src="MassSports-Wireframe.pdf" width=600><br>
+<img src="MassSports-Wireframe.pdf" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 
