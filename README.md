@@ -105,6 +105,14 @@ optional:
 
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+-Home feed screen
+  -(Read/GET) Query all posts from API
+-Debit/Credit card screen
+  -(Create/POST) Send credit/debit card information to BACK4APP
+-Live feed screen
+  -(Read/GET) Query live feed from API
+-Profile Screen
+  -(Read/GET) Query logged in user object
+  -(Update/PUT) Update user information
+
