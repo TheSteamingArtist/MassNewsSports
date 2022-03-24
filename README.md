@@ -138,5 +138,6 @@ optional:
       -(Read/GET) Query logged in user object
       -(Update/PUT) Update user information
   
-  
-
+#### [OPTIONAL:] Existing API Endpoints
+##### NYTimes API
+-Base URL- [https://developer.nytimes.com/docs/top-stories-product/1/routes/%7Bsection%7D.json/get](https://developer.nytimes.com/docs/top-stories-product/1/routes/%7Bsection%7D.json/get)
