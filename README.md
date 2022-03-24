@@ -106,15 +106,24 @@ optional:
    | birthday      | String   | the date of birth of the user                            |
    | dateCreated   | String   | the date the user registered their account               |
 
-<img src="model_user_table.pdf" width=600><br>
 
 **Payment**
 
-<img src="model_payment_table.pdf" width=600><br>
+   | Property        | Type     | Description                                              |
+   | ----------------| -------- | ---------------------------------------------------------|
+   | name            | String   | the name on the credit/debit card                        |
+   | number          | String   | series of numbers found on the card                      |
+   | expirationDate  | String   | the expiration date on the card                          |
+   | cvv             | String   | cvv number found on the card                             |
+   | zipCode         | String   |  the zip code associated with the card                   |
 
 **LiveFeed**
 
-<img src="model_liveFeed_table.pdf" width=600><br>
+   | Property        | Type     | Description                                              |
+   | ----------------| -------- | ---------------------------------------------------------|
+   | viewCount       | int      | Show how many users are currently viewing a live stream  |
+   | numOfLiveGames  | int      | Shows how many live games are active at that time        |
+
 
 ### Networking
 #### List of network requests by screen
