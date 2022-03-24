@@ -97,7 +97,7 @@ optional:
 
 **Payment**
 
-<img src="model_post_table.pdf" width=600><br>
+<img src="model_payment_table.pdf" width=600><br>
 
 [Add table of models]
 ### Networking
