@@ -99,6 +99,10 @@ optional:
 
 <img src="model_payment_table.pdf" width=600><br>
 
+**LiveFeed**
+
+<img src="model_liveFeed_table.pdf" width=600><br>
+
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
