@@ -93,6 +93,19 @@ optional:
 ### Models
 **User** 
 
+   | Property      | Type     | Description                                              |
+   | ------------- | -------- | ---------------------------------------------------------|
+   | userId        | String   | unique id for the user                                   |
+   | username      | String   | represents the user's username                           |
+   | password      | String   | the password associated with the user in order to log in |
+   | firstName     | String   | user's first name                                        |
+   | lastName      | String   | user's last name                                         |
+   | email         | String   | user’s email associated with their account               |
+   | phoneNumber   | String   | user’s phone number                                      |
+   | address       | String   | the address the user currently resides in                |
+   | birthday      | String   | the date of birth of the user                            |
+   | dateCreated   | String   | the date the user registered their account               |
+
 <img src="model_user_table.pdf" width=600><br>
 
 **Payment**
@@ -103,7 +116,6 @@ optional:
 
 <img src="model_liveFeed_table.pdf" width=600><br>
 
-[Add table of models]
 ### Networking
 #### List of network requests by screen
 
