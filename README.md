@@ -141,3 +141,6 @@ optional:
 #### [OPTIONAL:] Existing API Endpoints
 ##### NYTimes API
 -Base URL- [https://developer.nytimes.com/docs/top-stories-product/1/routes/%7Bsection%7D.json/get](https://developer.nytimes.com/docs/top-stories-product/1/routes/%7Bsection%7D.json/get)
+
+##### Eventbrite API
+-Base URL- [https://www.eventbrite.com/platform/docs/introduction](https://www.eventbrite.com/platform/docs/introduction)
