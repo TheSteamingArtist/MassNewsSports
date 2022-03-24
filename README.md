@@ -106,14 +106,9 @@ optional:
 [Add table of models]
 ### Networking
 #### List of network requests by screen
-   -Home feed screen
+
+    -Home feed screen
       -(Read/GET) Query all posts from API
   
-   -Debit/Credit card screen
-      -(Create/POST) Send credit/debit card information to BACK4APP
-   -Live feed screen
-      -(Read/GET) Query live feed from API
-   -Profile Screen
-      -(Read/GET) Query logged in user object
-      -(Update/PUT) Update user information
+  
 
