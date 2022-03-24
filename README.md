@@ -109,6 +109,13 @@ optional:
 
     -Home feed screen
       -(Read/GET) Query all posts from API
+    -Debit/Credit card screen
+      -(Create/POST) Send credit/debit card information to BACK4APP
+    -Live feed screen
+      -(Read/GET) Query live feed from API
+    -Profile screen
+      -(Read/GET) Query logged in user object
+      -(Update/PUT) Update user information
   
   
 
