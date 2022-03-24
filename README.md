@@ -92,7 +92,12 @@ optional:
 
 ### Models
 **User** 
+
 <img src="model_user_table.pdf" width=600><br>
+
+**Payment**
+
+<img src="model_post_table.pdf" width=600><br>
 
 [Add table of models]
 ### Networking
