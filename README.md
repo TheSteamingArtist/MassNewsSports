@@ -117,12 +117,6 @@ optional:
    | cvv             | String   | cvv number found on the card                             |
    | zipCode         | String   |  the zip code associated with the card                   |
 
-**LiveFeed**
-
-   | Property        | Type     | Description                                              |
-   | ----------------| -------- | ---------------------------------------------------------|
-   | viewCount       | int      | Show how many users are currently viewing a live stream  |
-   | numOfLiveGames  | int      | Shows how many live games are active at that time        |
 
 
 ### Networking
@@ -144,3 +138,6 @@ optional:
 
 ##### Eventbrite API
 -Base URL- [https://www.eventbrite.com/platform/docs/introduction](https://www.eventbrite.com/platform/docs/introduction)
+
+##### Odds API
+-Base URL- [https://the-odds-api.com/](https://the-odds-api.com/)
