@@ -1,4 +1,10 @@
 package com.example.massnewssports;
 
-public class TicketActivity {
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+public class TicketActivity
+{
+    private BottomNavigationView bottomNavigationView;
+
+
 }
