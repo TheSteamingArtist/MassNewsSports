@@ -3,28 +3,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/action_profile"
-        android:icon="@color/material_on_surface_disabled"
-        android:title="Profile"
-        app:showAsAction="always" />
-    <item
-        android:id="@+id/action_scanner"
-        android:icon="@android:drawable/ic_media_rew"
-        android:title="Scanner"
-        app:showAsAction="always" />
-    <item
         android:id="@+id/action_home"
-        android:icon="@android:drawable/star_big_on"
+        android:icon="@android:drawable/ic_menu_compass"
         android:title="Home"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_tickets"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="Tickets"
+        android:id="@+id/action_compose"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Compose"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_live"
-        android:icon="@android:drawable/ic_menu_myplaces"
-        android:title="Live"
+        android:id="@+id/action_profile"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Profile"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ticket"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_live"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Home"
+        app:showAsAction="always" />
+
 </menu>
