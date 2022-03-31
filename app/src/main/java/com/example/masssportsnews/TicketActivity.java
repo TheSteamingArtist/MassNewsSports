@@ -1,4 +1,4 @@
-package com.example.massnewssports;
+package com.example.masssportsnews;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

@@ -1,10 +1,11 @@
-package com.example.massnewssports.fragments;
+package com.example.masssportsnews.fragments;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,6 +54,8 @@ public class TicketFragment extends Fragment
             @Override
             public void onClick(View view)
             {
+
+
 
             }
         });
