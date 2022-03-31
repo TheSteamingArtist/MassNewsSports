@@ -36,7 +36,7 @@ public class LiveScore
         commenceTime = jsonObject.getString("commence_time");
 
 
-        scores = jsonObject.getJSONArray("scores");
+        //scores = jsonObject.getJSONArray("scores");
 
 
         homeScore = jsonObject.getString("scores");
