@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.massnewssports.R;
+import com.example.masssportsnews.fragments.HomeFragment;
 import com.example.masssportsnews.fragments.TicketFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -44,7 +45,11 @@ public class MainActivity extends AppCompatActivity
                         break;
 
                     default:
+                        fragment = new HomeFragment();
+                        break;
                 }
+
+                fragmentManager.beginTransaction().replace(R.id.flContainer,fragment).commit();
 
                 return true;
             }
