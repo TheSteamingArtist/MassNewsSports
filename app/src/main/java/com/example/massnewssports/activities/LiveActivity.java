@@ -53,14 +53,13 @@ public class LiveActivity extends AppCompatActivity {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
                 Log.d(TAG, "OnSuccess");
-                JSONObject jsonObject = json.jsonObject;
+                JSONArray results = json.jsonArray;
+
                 try {
-                    JSONArray results  = jsonObject.getJSONArray("result");
-                    //whats it called?
                     Log.i(TAG, "Results: " + results.toString());
                     liveScoreList.addAll(LiveScore.fromJSONArray(results));
                     liveAdapter.notifyDataSetChanged();
-                    Log.i(TAG, "Movies: " + liveScoreList.size());
+                    Log.i(TAG, "LiveScoreList: " + liveScoreList.size());
                 } catch (JSONException e) {
                     Log.e(TAG, "Hit json exception", e);
                     e.printStackTrace();

@@ -3,6 +3,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.parceler.Parcel;
+import org.parceler.Transient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +14,16 @@ public class LiveScore
     String sportTitle;
     String homeTeam;
     String awayTeam;
-    String homeScore;
-    String awayScore;
+
     Boolean complete;
     String commenceTime; // 2020-01-02T23:10:00Z
+
+    @Transient
+    JSONArray scores;
+
+    String homeScore;
+    String awayScore;
+
 
     public LiveScore() {}
 
@@ -27,8 +34,15 @@ public class LiveScore
         awayTeam = jsonObject.getString("away_team");
         complete = jsonObject.getBoolean("completed");
         commenceTime = jsonObject.getString("commence_time");
-        homeScore = jsonObject.getString("score");
-        awayScore = jsonObject.getString("score");
+
+
+        scores = jsonObject.getJSONArray("scores");
+
+
+        homeScore = jsonObject.getString("scores");
+        awayScore = jsonObject.getString("scores");
+
+
     }
 
     public static List<LiveScore> fromJSONArray(JSONArray liveScoreJsonArray) throws JSONException
@@ -68,4 +82,8 @@ public class LiveScore
     public String getAwayScore() {
         return awayScore;
     }
+
+//    public JSONArray getScores() {
+//        return scores;
+//    }
 }

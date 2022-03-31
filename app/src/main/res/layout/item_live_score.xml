@@ -12,7 +12,7 @@
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="5dp"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -22,7 +22,7 @@
         android:layout_height="80dp"
         android:layout_below="@+id/ivHomeTeam"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="10dp"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/ivHomeTeam"
         android:text="TextView" />
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivHomeTeam"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/ivAwayTeam"
         android:text="TextView" />
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/tvHomeTeam"
         android:text="TextView" />
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivHomeTeam"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/tvAwayTeam"
         android:text="TextView" />
