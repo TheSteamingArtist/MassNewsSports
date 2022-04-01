@@ -8,31 +8,32 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
-    TextView tvSignupHere;
-    private Button btnSignin;
+public class SignupActivity extends AppCompatActivity {
+
+    TextView tvSignInHere;
+    private Button btnSignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_signup);
 
-        tvSignupHere = findViewById(R.id.tvSignupHere);
-        btnSignin = findViewById(R.id.btnSignin);
+        tvSignInHere = findViewById(R.id.tvSignInHere);
+        btnSignup = findViewById(R.id.btnSignup);
 
-        tvSignupHere.setOnClickListener(new View.OnClickListener() {
+        tvSignInHere.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
+                Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        btnSignin.setOnClickListener(new View.OnClickListener() {
+        btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -7,21 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ProfileActivity extends AppCompatActivity {
+public class EditProfileActivity extends AppCompatActivity {
 
-    private Button btnEditProfile;
+    private Button btnSaveChanges;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_edit_profile);
 
-        btnEditProfile = findViewById(R.id.btnEditProfile);
+        btnSaveChanges = findViewById(R.id.btnSaveChanges);
 
-        btnEditProfile.setOnClickListener(new View.OnClickListener() {
+        btnSaveChanges.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ProfileActivity.this, EditProfileActivity.class);
+                Intent intent = new Intent(EditProfileActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish();
             }
