@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.massnewssports.R;
 import com.example.masssportsnews.fragments.HomeFragment;
+import com.example.masssportsnews.fragments.LiveScoreFragment;
 import com.example.masssportsnews.fragments.TicketFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -43,7 +44,10 @@ public class MainActivity extends AppCompatActivity
                         Toast.makeText(MainActivity.this, "Tickets!",Toast.LENGTH_SHORT).show();
                         fragment = new TicketFragment();
                         break;
-
+                    case R.id.action_live:
+                        Toast.makeText(MainActivity.this, "Live!", Toast.LENGTH_SHORT).show();
+                        fragment = new LiveScoreFragment();
+                        break;
                     default:
                         fragment = new HomeFragment();
                         break;
