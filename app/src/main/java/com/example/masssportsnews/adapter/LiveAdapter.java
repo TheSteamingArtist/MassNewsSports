@@ -1,4 +1,4 @@
-package com.example.masssportsnews.adapters;
+package com.example.masssportsnews.adapter;
 
 import android.content.Context;
 import android.os.Build;
@@ -65,14 +65,14 @@ public class LiveAdapter extends RecyclerView.Adapter<LiveAdapter.ViewHolder>{
 //        ivHomeTeam = itemView.findViewById(R.id.ivHomeTeam);
 //        ivAwayTeam = itemView.findViewById(R.id.ivAwayTeam);
 
-        tvHomeTeamName = itemView.findViewById(R.id.tvHomeTeam);
-        tvAwayTeamName = itemView.findViewById(R.id.tvAwayTeam);
+            tvHomeTeamName = itemView.findViewById(R.id.tvHomeTeam);
+            tvAwayTeamName = itemView.findViewById(R.id.tvAwayTeam);
 
-        tvHomeScore = itemView.findViewById(R.id.tvHomeScore);
-        tvAwayScore = itemView.findViewById(R.id.tvAwayScore);
+            tvHomeScore = itemView.findViewById(R.id.tvHomeScore);
+            tvAwayScore = itemView.findViewById(R.id.tvAwayScore);
 
-        tvCommenceTime = itemView.findViewById(R.id.tvStartTime);
-        tvStatus = itemView.findViewById(R.id.tvStatus);
+            tvCommenceTime = itemView.findViewById(R.id.tvStartTime);
+            tvStatus = itemView.findViewById(R.id.tvStatus);
         }
 
         @RequiresApi(api = Build.VERSION_CODES.O)
