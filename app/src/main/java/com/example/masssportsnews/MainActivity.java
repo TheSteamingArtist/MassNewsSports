@@ -9,9 +9,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.massnewssports.R;
+import com.example.masssportsnews.R;
 import com.example.masssportsnews.fragments.HomeFragment;
 import com.example.masssportsnews.fragments.LiveScoreFragment;
+import com.example.masssportsnews.fragments.ProfileFragment;
 import com.example.masssportsnews.fragments.TicketFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -47,6 +48,11 @@ public class MainActivity extends AppCompatActivity
                     case R.id.action_live:
                         Toast.makeText(MainActivity.this, "Live!", Toast.LENGTH_SHORT).show();
                         fragment = new LiveScoreFragment();
+                        break;
+
+                    case R.id.action_profile:
+                        Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
+                        fragment = new ProfileFragment();
                         break;
                     default:
                         fragment = new HomeFragment();

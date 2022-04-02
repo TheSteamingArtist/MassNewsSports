@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.massnewssports.R;
+import com.example.masssportsnews.R;
 
 public class TicketFragment extends Fragment
 {

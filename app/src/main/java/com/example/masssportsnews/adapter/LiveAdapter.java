@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.massnewssports.R;
+import com.example.masssportsnews.R;
 import com.example.masssportsnews.LiveScore;
 
 import java.time.LocalDateTime;
