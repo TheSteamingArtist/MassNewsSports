@@ -12,7 +12,7 @@ import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.masssportsnews.R;
-import com.example.masssportsnews.LiveScore;
+import com.example.models.LiveScore;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -95,12 +95,17 @@ public class LiveAdapter extends RecyclerView.Adapter<LiveAdapter.ViewHolder>{
                 tvCommenceTime.setText("Started " + liveScore.getCommenceTime());
             }
 
-            if(liveScore.getComplete())
+
+
+            //in progress
+            //not started
+            //finished
+            if(liveScore.getComplete() == true)
             {
                 tvStatus.setText("Status: In-Progress");
             }
             else{
-                tvStatus.setText("Status: Complete");
+                tvStatus.setText("Status: Not started");
             }
 
         }

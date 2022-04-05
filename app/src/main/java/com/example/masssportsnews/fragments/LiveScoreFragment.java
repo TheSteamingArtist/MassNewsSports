@@ -17,7 +17,7 @@ import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.example.masssportsnews.R;
 import com.example.masssportsnews.adapter.LiveAdapter;
-import com.example.masssportsnews.LiveScore;
+import com.example.models.LiveScore;
 
 import org.json.JSONArray;
 import org.json.JSONException;
